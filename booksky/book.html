@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booksky</title>
+    <link rel="icon" href="book.jpg">
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="one">
+        <h1>Booksky</h1>
+    </div>
+    
+    <div class="two">
+        <div class="three">
+            <h2>Untold part of life</h2>
+            <h5>Vikram</h5>
+            <p>Don't concern yourself with others' thoughts when pursuing your own desires.</p>
+            <button onclick=Delete(event)>Delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popup-box">
+        <h2 style="text-align: center;">Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="bookid">
+            <input type="text" placeholder="Book Author" id="Author">
+            <textarea id="desc" placeholder="Short Description"></textarea>
+            <button id="add-btn">ADD</button>
+            <button id="cancel-btn">CANCEL</button>
+        </form>
+    </div>
+    <button class="bt2" id="button2">+</button>
+
+    <script src="book.js"></script>
+</body>
+</html>
